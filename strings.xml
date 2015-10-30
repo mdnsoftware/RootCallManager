@@ -290,7 +290,7 @@
  <string name="disable">Disable</string>
  
  <string name="no_blocking_name">Name for "No blocking"</string>
- <string name="no_blocking_name_sum">Name for "No blocking" for widget</string>
+ <string name="no_blocking_name_sum">What to display for list "No blocking" in homescreen widgets</string>
  <string name="move_calls">Outgoing calls</string>
  <string name="move_calls_sum">To move outgoing calls on the blocked numbers to the journal of the program</string><!-- can you explain what this describes? -->
  <string name="move_sms">Outgoing SMS</string>
