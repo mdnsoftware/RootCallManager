@@ -12,7 +12,7 @@
     <string name="retry_button">Check\nlicense</string>
     <string name="quit_button">Exit</string>
     <string name="checkudw">Before use of Root Call SMS Manager update USSD Dual Widget Pro to the version not lower than 1.0.17.1!</string>
-    <string name="checkf">The program can conflict with Root Call Blocker, Call Master, Private Place SMS MMS CALLS, Balance Widgets, VibrAlert.</string>
+    <string name="checkf">Root Call Manager can conflict with Root Call Blocker, Call Master, Private Place SMS MMS CALLS, Balance Widgets, VibrAlert.</string>
     
     <string name="trial">Well only in the full version</string>
     <string name="buy_pref_sum">Buy full version or check license</string>
@@ -24,12 +24,12 @@
      <string name="control">Сontrol</string> 
      
 <string name="mall">All</string>
-<string name="wlist">White list </string>
-<string name="blist">Black list </string>
+<string name="wlist">Whitelist </string>
+<string name="blist">Blacklist </string>
 <string name="del_number">Remove number?</string>
 <string name="rows">Rows:</string>
 <string name="lists">Lists:</string>
-<string name="no_blocking">Not to block</string>
+<string name="no_blocking">No blocking</string>
 <string name="exceptions">Exceptions</string>
 
 <string name="number">Number</string>
@@ -52,22 +52,22 @@
     <string name="cancel">Cancel</string>
     <string name="enter">Enter new value</string>
  
-    <string name="blocktype">Way of blocking</string>
-    <string name="noanswer">Not to answer</string>
+    <string name="blocktype">Blocking method</string>
+    <string name="noanswer">Do not answer</string>
     <string name="reject">Reject</string>
     <string name="reject1">Fast reject(MTK)</string>
     <string name="block">Block:</string>
     <string name="add_to_journal">Add to journal</string>
     <string name="bnotifications">Notifications</string>
-    <string name="smsfilter">Filter for SMS</string>
+    <string name="smsfilter">Filter SMS</string>
     <string name="smsanswer">SMS answer</string>
-    <string name="smsanswer_sum">SMS answer to blocked number</string>
+    <string name="smsanswer_sum">SMS answer to blocked call</string>
 
-<string name="sel_number_cont">Select from contacts</string>
-<string name="sel_grp">Select group</string>
+<string name="sel_number_cont">Select contact</string>
+<string name="sel_grp">Select contact group</string>
 <string name="sel_number_j">Select from journal</string>
-<string name="sel_all_cont">All from Contacts</string>
-<string name="sel_all_not_cont">All not from Contacts</string>
+<string name="sel_all_cont">All contacts</string>
+<string name="sel_all_not_cont">Any not in contacts</string>
 <string name="contact">Contact</string>
 <string name="withletters">Containing letters</string>
 
@@ -85,25 +85,25 @@
  <string name="witeboot">Wait after boot, sec.</string>
  <string name="submode">Submode</string>
  <string name="submode_sum">Submode of restart of the radio module</string>
- <string name="restartfly">Restarting</string>
+ <string name="restartfly">Restart</string>
  <string name="restartfly_sum">Restart service after airplane mode or sim card deactivation</string>
  <string name="debug">Debugging mode</string>
  <string name="restartservice">Restart radio</string>
- <string name="restartservice_sum">To execute restart of the radio module and to be reconnected to it</string>
- <string name="change_slot">Сhange sim order</string>
- <string name="sim_order">Sim order</string>
+ <string name="restartservice_sum">Execute restart of the radio module and reconnect to it</string>
+ <string name="change_slot">Сhange SIM order</string>
+ <string name="sim_order">SIM order</string>
  <string name="_3gswitch">Auto</string>
  
  
  <string name="notify">Notifications</string>
 
-  <string name="enable_notify">Notices of events</string>
+  <string name="enable_notify">Notify for events</string>
     <string name="vibra">Vibration</string>
     <string name="sound">Play sound</string>
     <string name="sound_sel">Choose sound</string>
-    <string name="ind_light">Blink indicator</string>
+    <string name="ind_light">Blink LED</string>
    <string name="show_journal">Show journal</string>
-   <string name="show_journal_sum">To show the journal when pressing the notice</string>
+   <string name="show_journal_sum">Tap notification to show the journal</string>
     
     
 <string name="start_activity">Starting screen</string>    
@@ -123,18 +123,18 @@
     <string name="schedules">Schedules</string>
     <string name="doschedules">Turn on scheduler</string>
     <string name="dall">Every day</string>
-    <string name="chsched1">The schedule is crossed with</string>
-    <string name="chsched2">Time of the termination has to be more time of the beginning!</string>
+    <string name="chsched1">The schedule conflicts with</string>
+    <string name="chsched2">End time has to be later than start!</string>
     <string name="last_list">Last active list</string>
-    <string name="end_list">Action on the schedule end:</string>
+    <string name="end_list">Action on schedule end:</string>
     
     <string name="theme">Theme</string>
      <string name="black">Black</string>
      <string name="light">Light</string>
      
    
-     <string name="jclear">Journal cleaning</string>
-<string name="jclear_sum">Control removing of the records from the journal</string>
+     <string name="jclear">Clear journal</string>
+<string name="jclear_sum">Automatic removal of records from the journal</string>
 <string name="jclear0">Do not delete</string>
 <string name="jclear1">Delete after 1 month</string>
 <string name="jclear2">Delete after 3 months</string>
@@ -142,9 +142,9 @@
 <string name="jclear4">Delete after 1 year</string>
 <string name="journal">Journal</string>
 
-<string name="smsperiod">SMS answers frequency</string>
+<string name="smsperiod">SMS answer frequency</string>
 <string name="smsperiod_sum">The minimum time between automatic SMS answers for each number</string>
-<string name="smsperiod0">Without restrictions</string>
+<string name="smsperiod0">No restriction</string>
 <string name="smsperiod1">1 hour</string>
 <string name="smsperiod2">2 hours</string>
 <string name="smsperiod3">3 hours</string>
@@ -154,17 +154,17 @@
 
 <string name="settings">Settings</string>
 <string name="hide">Hide application</string>
-<string name="code">Dialer number</string>
+<string name="code">Dialer number</string><!-- I don't know where this is used, but I think it needs to be modified -->
 <string name="bar_notify">Status bar notification</string>
 <string name="state">Service state:</string>
 <string name="finish">Program closing</string>
-<string name="screen_off">Screen turns off</string>
+<string name="screen_off">Turn Screen off</string>
 <string name="shake">After shake</string>
 <string name="sim">SIM</string>
 
 <string name="reject_type">Reject mode</string>
-<string name="reject_type_sum">On some smartphones change of this control can accelerate rejecting of calls</string>
-<string name="tickertext">Ticker text</string>
+<string name="reject_type_sum">On some smartphones change of this setting can accelerate rejecting of calls</string>
+<string name="tickertext">Ticker text</string><!-- I don't know where this is used, but I think it needs to be modified -->
 <string name="title">Title</string>
 <string name="content">Content</string>
 <string name="icon">Icon</string>
@@ -176,29 +176,29 @@
 <string name="duration">Duration:</string>
 <string name="unlimited">Unlimited</string>
 <string name="test">Test</string>
-<string name="update_items">To apply to list elements</string>
+<string name="update_items">Apply to list elements</string>
 <string name="samsung_type">Samsung submode</string>
-<string name="samsung_type_sum">Try to change this control if blocking of calls doesn\'t work.</string>
+<string name="samsung_type_sum">Try to change this setting if blocking of calls doesn't work.</string>
 <string name="macros">Insert macros</string>
 <string name="name_or_number">Name or number</string>
 <string name="name_and_number">Name and number</string>
 
 <string name="test_number">Test number</string>
 <string name="sms_body">Text SMS</string>
-<string name="find">Сompliance:</string>
+<string name="find">Сompliance:</string><!-- I don't know where this is used, but I think it needs to be modified -->
 <string name="blocking">Block</string>
 <string name="allow">Allow</string>
 
-<string name="update_items1">All parameters of elements of the list will be rewritten. To continue?</string>
+<string name="update_items1">All items on the list will be rewritten. Continue?</string>
 <string name="move">Move to system journal</string>
 <string name="delivery_report">block delivery\nreport</string>
 
-<string name="private_conv">Private conversation</string>
+<string name="private_conv">Private Conversation (exclude calls/SMS from logs/history)</string>
 <string name="general">General</string>
-<string name="comparison">Comparison of numbers</string>
-<string name="comparison_sum">How many the last symbols of number will be compared to contacts or list elements (0-full coincidence).\n%1$d</string>
-<string name="move1">Move from sys journal</string>
-<string name="move2">To move contact history from system magazines to the program journal?</string>                     
+<string name="comparison">Number matching</string>
+<string name="comparison_sum">How many symbols from the end of the number will be compared to contacts or list elements (0-full match).\n%1$d</string>
+<string name="move1">Move from system journal</string>
+<string name="move2">Move contact history from system logs to the program journal?</string>
 
 <string name="incoming">Incoming</string>
 <string name="outgoing">Outgoing</string>
@@ -212,11 +212,12 @@
 <string name="del_group">Delete group $group$?</string>
 <string name="delivery_report1">Blocking of reports</string>
 <string name="delivery_report_sum">Activates function of blocking of outgoing SMS delivery reports</string>
-<string name="delivery_report_warning">Attention! In certain cases blocking of delivery reports can lead to that SMS center will cease to send you SMS from any senders. To continue?</string>
+<string name="delivery_report_warning">Attention! In certain cases blocking of delivery reports can lead to that SMS center will cease to send you SMS from any senders. Continue?</string>
 <string name="rename">Rename</string>
 
 
-<string name="notif_group">To group notifications</string>
+<!-- where are these used? I think these needs to be modified -->
+<string name="notif_group">Group notifications</string>
 <string name="to_call">To call</string>
 <string name="to_send_sms">To send SMS</string>
 <string name="loadfile">To load from file</string>
@@ -224,84 +225,84 @@
 <string name="copy_sms">To copy SMS</string>
 <string name="delete_thread">Delete thread?</string>
 <string name="clear_not">Clear all notifications</string>
-<string name="clear_not_0">Not to clear</string>
+<string name="clear_not_0">Do not clear</string>
 <string name="clear_not_1">Journal opening</string>
-<string name="clear_not_2">Journal opening from notifications</string>
+<string name="clear_not_2">Open journal from notification</string>
 <string name="widget">Widget</string>
-<string name="wdg_new">Counter unread</string>
-<string name="wdg_new_clear">Counter dumping</string>
-<string name="wdg_new_clear0">Viewing</string>
-<string name="wdg_new_clear1">Journal opening</string>
+<string name="wdg_new">Unread count</string>
+<string name="wdg_new_clear">Discarded count</string>
+<string name="wdg_new_clear0">View</string>
+<string name="wdg_new_clear1">Open journal</string>
 <string name="rate_msg">If you enjoy using Root Call SMS Manager, please take a moment to rate it. Thanks for your support!</string>
 <string name="rate">Rate</string>
 <string name="remind">Remind me later</string>
-<string name="not_show">Not to show again</string>
-<string name="root_msg">Error of query of the rights of root! The rights of root are necessary for functioning of the program on the smartphone!</string>
-<string name="state_msg">The service of the program doesn\'t control the radio module! In settings, point, "About" it is possible to look at current state of service, for successful work of the SIM1(SIM2  for Dual SIM ) has to be green. Probably it is required to increase a Wait after boot and/or to replace a submode in system settings of the program, after that reboot is necessary.</string>
+<string name="not_show">Do not show again</string>
+<string name="root_msg">Failed to get root rights! Root rights are necessary for functioning of the program!</string>
+<string name="state_msg">The program service cannot control the radio module! In settings, select "About" to look show the current state of service; for Root Call Manager to work correctly, SIM1 (SIM2 for Dual SIM ) has to be green. It is probably necessary to increase the wait after boot and/or to change the submode in system settings of the program, after that reboot is necessary.</string>
 
-<string name="add_to_private">Add to Private conversation</string>
+<string name="add_to_private">Add to "Private conversation"</string>
 <string name="restart_inet">Restart internet</string>
-<string name="restart_inet_sum">To restart data connection after start of service of the program</string>
-<string name="close_act">To close windows</string>
-<string name="close_act_sum">To close windows when turning</string>
+<string name="restart_inet_sum">Restart data connection after start of service of the program</string>
+<string name="close_act">Close windows</string>
+<string name="close_act_sum">Close windows when turning</string><!-- turning? screen rotation? -->
 <string name="mute">Mute</string>
-<string name="mute_sms_time">Time of SMS muting</string>
-<string name="restart_sim">Restarting SIM</string>
-<string name="restart_sim_sum">Restarting SIM after start of service of the program. Сan solve a problem with SMS non receipt</string>
-<string name="restart_sim_mode">Restarting Mode</string>
+<string name="mute_sms_time">SMS mute period</string>
+<string name="restart_sim">Restart SIM</string>
+<string name="restart_sim_sum">Restart SIM after start of service of the program. Сan solve problems with SMS non receipt</string>
+<string name="restart_sim_mode">Restart Mode</string>
 <string name="block1">Block</string>
 <string name="copy">Copy</string>
 <string name="processing_numbers">Processing of numbers</string>
-<string name="processing_numbers_sum">To offer processing of new numbers</string>
-<string name="addition_number">Number addition</string>
+<string name="processing_numbers_sum">Offer processing of new numbers</string>
+<string name="addition_number">Number addition</string><!-- Number adding -->
 <string name="path">Program directory</string>
-<string name="hide_sms">Not to show SMS</string>
-<string name="hide_sms_sum">Not to show the text of SMS in the journal</string>
+<string name="hide_sms">Do not show SMS</string>
+<string name="hide_sms_sum">Do not show the text of SMS in the journal</string>
 <string name="call">Call</string>
-<string name="mute1">Muting</string>
-<string name="delete_missed_not">To delete notices</string>
-<string name="delete_missed_not_sum">To delete notices of the missed calls</string>
-<string name="vibra_off">To disconnect vibration</string>
+<string name="mute1">Mute</string>
+<string name="delete_missed_not">Delete notifications</string>
+<string name="delete_missed_not_sum">Delete notifications of missed calls</string>
+<string name="vibra_off">Disable vibration</string>
 
 
 <string name="low_resolution">Low resolution</string>
-<string name="low_resolution_sum">Adaptation for smartphones with the low resolution</string>
-<string name="stop_schedule">The schedule for $schedule$ is carried out. To stop the scheduler or temporarily to suspend the current schedule?</string>
-<string name="suspend">Temp. to suspend</string>
-<string name="stop">To stop scheduler</string>
-<string name="nothing">To do nothing</string>
-<string name="not_active">Not active till</string>
-<string name="jtab">Tab of journal</string>
-<string name="jtab_sum">Tab of journal by default</string>
+<string name="low_resolution_sum">Adaptation for smartphones with low resolution screens</string>
+<string name="stop_schedule">The schedule for $schedule$ is carried out. Stop the scheduler or temporarily to suspend the current schedule?</string>
+<string name="suspend">Temp. suspend</string>
+<string name="stop">Stop scheduler</string>
+<string name="nothing">Do nothing</string>
+<string name="not_active">Not active until</string>
+<string name="jtab">Journal tab</string>
+<string name="jtab_sum">Journal tab by default</string>
 <string name="kill">Kill</string>
 <string name="sim_number">Number of SIM</string>
 
- <string name="move_contact">To transfer to contacts of phone</string>
-<string name="del_contact">To remove contact from contacts of phone?</string>
+ <string name="move_contact">Transfer to phone contacts</string>
+<string name="del_contact">Remove contact from phone contacts?</string>
 <string name="contacts">Contacts</string>
  <string name="add">Add</string>
- <string name="sel_number_rcm_cont">Select from program contacts</string>
+ <string name="sel_number_rcm_cont">Select from program contacts</string><!-- is this from RCM contacts? -->
  <string name="bcall">Blocked calls</string>
  <string name="bsms">Blocked SMS</string>
  <string name="notepad">Notepad</string>
  <string name="open">Open</string>
- <string name="hiding">Hiding</string>
- <string name="disable">Disabled</string>
+ <string name="hiding">Hide</string>
+ <string name="disable">Disable</string>
  
- <string name="no_blocking_name">Name for "Not to block"</string>
- <string name="no_blocking_name_sum">Name for "Not to block" for widget</string>
+ <string name="no_blocking_name">Name for "No blocking"</string>
+ <string name="no_blocking_name_sum">Name for "No blocking" for widget</string>
  <string name="move_calls">Outgoing calls</string>
- <string name="move_calls_sum">To move outgoing calls on the blocked numbers to the journal of the program</string>
+ <string name="move_calls_sum">To move outgoing calls on the blocked numbers to the journal of the program</string><!-- can you explain what this describes? -->
  <string name="move_sms">Outgoing SMS</string>
- <string name="move_sms_sum">To move outgoing SMS on the blocked numbers to the journal of the program</string>
- <string name="change_number">Replacement of call number</string>
+ <string name="move_sms_sum">To move outgoing SMS on the blocked numbers to the journal of the program</string><!-- can you explain what this describes? -->
+ <string name="change_number">Replacement of call number</string><!-- can you explain what this describes? -->
  <string name="process">Process</string>
- <string name="block_mms">To block MMS</string>
- <string name="block_mms_sum">To block a MMS when blocking SMS</string>
+ <string name="block_mms">Block MMS</string>
+ <string name="block_mms_sum">Block MMS when blocking SMS</string>
   <string name="sms_insert_receive">Imitation of receiving SMS</string>
-  <string name="sms_insert_receive_sum">Imitation of receiving SMS at transfer from the program journal</string>
-<string name="delete_sms_not">To delete SMS notices</string>
-<string name="delete_sms_not_sum">To delete notices of the incoming SMS</string>
+  <string name="sms_insert_receive_sum">Imitation of receiving SMS at transfer from the program journal</string><!-- can you explain what this describes? -->
+<string name="delete_sms_not">Delete SMS notifications</string>
+<string name="delete_sms_not_sum">Delete notifications of incoming SMS</string>
 <string name="volume">Volume</string>
 <string name="smsperiod5m">5 min.</string>
 <string name="smsperiod15m">15 min.</string>
@@ -327,13 +328,13 @@
 <string name="move0">Move</string>
 <string name="disable_se">Disable SELinux</string>
 
-<string name="checkrcm">Remove Root Call Mansger before using Root Call SMS Manager.</string>
+<string name="checkrcm">Remove Root Call Manager before using Root Call SMS Manager.</string>
 
 <string name="show_warning">Show warning</string>
 <string name="show_warning_sum">Show warning about service state</string>
 
 <string name="hold">Answer and hold</string>
-<string name="not_contacts">Not from contacts</string>
+<string name="not_contacts">Not in contacts</string>
 <string name="skip">Skip</string>
 
 <string name="unload_to_file">Export to file</string>
@@ -341,8 +342,8 @@
 <string name="disable1">Disable</string>
 <string name="enable">Enable</string>
 <string name="hide1">Hide</string>
-<string name="jcallcopy">Copying calls</string>
-<string name="jcallmove">Moving calls</string>
+<string name="jcallcopy">Copy calls</string>
+<string name="jcallmove">Move calls</string>
 <string name="mark">Mark as</string>
 <string name="press_color_to_apply">Tap color to apply</string>
 <string name="widget2">Widget-list</string>
@@ -355,18 +356,18 @@
 <string name="jclear_7">Delete after 1 week</string>
 <string name="jclear_14">Delete after 2 weeks</string>
 <string name="blocked_calls">Blocked calls</string>
-<string name="blocked_calls_sum">Place of blocked calls to the number from a Private conversation in a Private conversation journal</string>
+<string name="blocked_calls_sum">Place of blocked calls to the number from a Private conversation in a Private conversation journal</string><!-- can you explain what this describes? -->
 
 
 
 <string name="ApplyRejectModeToKill">Kill Reject mode</string>
-<string name="ApplyRejectModeToKill_sum">Apply Reject mode setting for Kill method</string>
+<string name="ApplyRejectModeToKill_sum">Use Reject mode setting for Kill method</string>
 
 <string name="date">Date</string>
 <string name="time">Time</string>
 
 
-<string name="confirm_out">Confirmation blocking for outgoing</string>
+<string name="confirm_out">Confirm blocking for outgoing</string>
 <string name="confirm_default_action">Default action</string>
 <string name="allow1">Allow</string>
 <string name="disallow">Disallow</string>
@@ -378,5 +379,5 @@
 <string name="all_in_roaming">All in roaming</string>
 <string name="roaming">Roaming</string>
 <string name="wdg_NotificationsOnly">Only Notifications</string>
-<string name="wdg_NotificationsOnly_sum">To count only calls and SMS with notifications</string>
+<string name="wdg_NotificationsOnly_sum">Count only calls and SMS with notifications</string>
 </resources>
